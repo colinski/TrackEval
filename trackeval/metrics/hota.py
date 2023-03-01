@@ -5,6 +5,7 @@ from scipy.optimize import linear_sum_assignment
 from ._base_metric import _BaseMetric
 from .. import _timing
 
+np.float = float
 
 class HOTA(_BaseMetric):
     """Class which implements the HOTA metrics.

@@ -3,7 +3,7 @@ from scipy.optimize import linear_sum_assignment
 from ._base_metric import _BaseMetric
 from .. import _timing
 from .. import utils
-
+np.int = int
 
 class Identity(_BaseMetric):
     """Class which implements the ID metrics"""
